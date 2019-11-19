@@ -3,12 +3,12 @@ An automated image caption generator built using the Flickr-8k dataset
 
 # Packages Needed:
 Most of the packages needed to run the project come pre-installed with Anaconda. If you want, you can install the packages using the pip package manager as follows:
-'''
+```
  pip install numpy
  pip install pandas
  pip install matplotlib
  pip install Keras
-'''
+```
 
 ## How to run the project? 
 
