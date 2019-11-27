@@ -1,6 +1,9 @@
 # Image-Captioning-AI-Project
 ## An automated image caption generator built using the Flickr-8k dataset
 This project implements an Image caption generator using Deep Learning. We use Flickr-8K dataset to train our model. Each image in the dataset comes with 5 manually generated descriptions of the image. For ensuring syntactic correctness, we use GloVe vectors. Our model consists mainly of 2 components: First is CNN based image feature extractor ( we use Inception V3 model for this). Second part is sentence generator, which is RNN based(We use LSTMs for this). We remove the last layer of the Inception V3 model and feed it to the LSTM network along with a dummy start token. End of the generated sequence is marked by a special end token.
+_Following are some of the sample results we got from the model._
+![GitHub Logo](https://github.com/Gandhi24/Image-Captioning-AI-Project/blob/master/Sample%20results/Capture.JPG)
+Format: ![Alt Text](url)
 
 # Packages Needed:
 Most of the packages needed to run the project come pre-installed with Anaconda. If you want, you can install the packages using the pip package manager as follows:
